@@ -20,8 +20,8 @@
   justify-content: center;
 }
 
-.title p{
-  font-family: 'Merriweather';
+.title p {
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -29,8 +29,8 @@
   color: var(--primaria);
 }
 
-.title h1{
-  font-family: 'Merriweather';
+.title h1 {
+  font-family: "Merriweather";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -39,17 +39,17 @@
   margin-top: 7px;
 }
 
-.formulario{
+.formulario {
   margin-top: 40px;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
 }
 
-label{
-  font-family: 'Lato';
+label {
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -57,35 +57,39 @@ label{
   color: var(--primaria);
 }
 
-input#senha{
+label#senha{
+  margin-top: 11px;
+}
+
+input#senha {
   width: 350px;
   height: 50px;
   padding: 20px;
-  
+
   border-radius: 5px;
-  border: 1px solid #E8E8E8;
+  border: 1px solid #e8e8e8;
   box-sizing: border-box;
 
   margin-top: 11px;
 }
 
-input#email{
+input#email {
   width: 350px;
   height: 50px;
   padding: 20px;
-  
+
   border-radius: 5px;
-  border: 1px solid #E8E8E8;
+  border: 1px solid #e8e8e8;
   box-sizing: border-box;
   margin-top: 11px;
 }
 
-input::placeholder{
+input::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -93,25 +97,82 @@ input::placeholder{
   color: var(--primaria);
 }
 
-.radio-form{
+.radio-form {
   margin-top: 28px;
   display: flex;
   justify-content: space-between;
 }
 
-.radio-form span{
-  font-family: 'Lato';
+span {
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 17px;
   color: var(--secundaria);
   cursor: pointer;
-
 }
 
-.conteudo-radio{
+.conteudo-radio {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+button{
+  cursor: pointer;
+}
+
+.b-entrar {
+  width: 347px;
+  height: 50px;
+  margin-top: 26px;
+
+  border-radius: 5px;
+  background-color: var(--buttonGreen);
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--white);
+}
+
+.b-google {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+
+.b-google {
+  width: 347px;
+  height: 50px;
+  margin-top: 26px;
+
+  border-radius: 5px;
+  background-color: var(--primaria);
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--white);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+footer p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primaria);
 }
