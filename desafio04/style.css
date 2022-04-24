@@ -1,0 +1,117 @@
+.main {
+  display: flex;
+  background: var(--white);
+  width: 100%;
+  height: 100vh;
+}
+
+.container1 {
+  width: 50%;
+  background-color: var(--white200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title p{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--primaria);
+}
+
+.title h1{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  color: var(--primaria);
+  margin-top: 7px;
+}
+
+.formulario{
+  margin-top: 40px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primaria);
+}
+
+input#senha{
+  width: 350px;
+  height: 50px;
+  padding: 20px;
+  
+  border-radius: 5px;
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+
+  margin-top: 11px;
+}
+
+input#email{
+  width: 350px;
+  height: 50px;
+  padding: 20px;
+  
+  border-radius: 5px;
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  margin-top: 11px;
+}
+
+input::placeholder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--primaria);
+}
+
+.radio-form{
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-form span{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--secundaria);
+  cursor: pointer;
+
+}
+
+.conteudo-radio{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
