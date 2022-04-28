@@ -1,0 +1,58 @@
+/*Variáveis*/
+:root {
+  --bgSite: linear-gradient(130.02deg, #628e75 0.66%, #1a4855 83.32%);
+
+  --white: #f9f9f9;
+  --green: #658e76;
+}
+
+/* utilitario */
+
+.container {
+  box-sizing: border-box;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+button,
+input {
+  border: 0;
+}
+button:focus,
+input:focus {
+  border: 0;
+}
