@@ -1,7 +1,8 @@
 .body-bg {
   background: var(--bgSite);
+  background-repeat: no-repeat;
   box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .header-conteudo {
@@ -21,6 +22,13 @@
   align-items: center;
   gap: 160px;
   margin-top: 75px;
+}
+
+@media (max-width: 1120px) {
+  .main-conteudo {
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
 }
 
 .column1-conteudo h2 {
@@ -62,6 +70,21 @@
   color: var(--white);
 }
 
+@media (max-width: 500px) {
+  .main-conteudo h2 {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+  }
+  .main-conteudo h1 {
+    font-size: 56px;
+    line-height: 60px;
+  }
+  .main-conteudo p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
 .main-conteudo button {
   background-color: transparent;
   border: 2px solid var(--green);
@@ -83,6 +106,13 @@
 .column2-conteudo {
   width: 500px;
   height: 370px;
+}
+
+@media (max-width: 500px) {
+  .column2-conteudo {
+    width: 300px;
+    height: 220px;
+  }
 }
 
 button:hover {
