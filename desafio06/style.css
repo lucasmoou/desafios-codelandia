@@ -1,0 +1,106 @@
+body {
+  font-family: "B612";
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./img/image.png);
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  color: var(--white);
+}
+
+.title h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  padding-top: 45px;
+}
+
+.title h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 117px;
+  text-transform: uppercase;
+
+  padding-top: 35px;
+  padding-bottom: 120px;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  column-gap: 70px;
+}
+
+.content-loki p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--white);
+}
+
+.informacoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.informacoes ul {
+  display: flex;
+}
+
+.informacoes span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.buttons {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--white);
+  display: flex;
+  gap: 40px;
+}
+
+#b-blue {
+  width: 184px;
+  height: 52px;
+  border-radius: 3px;
+  background: var(--buttonBlue);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--white);
+
+  cursor: pointer;
+}
+
+#b-dark {
+  width: 115px;
+  height: 52px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background: var(--buttonDark);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--white);
+
+  cursor: pointer;
+}
+
+li:hover {
+  background: url(./img/star-yellow.png);
+}
