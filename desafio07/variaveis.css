@@ -1,0 +1,38 @@
+/*Variáveis*/
+
+:root {
+  --white: #ffffff;
+  --buttonDark: #131318;
+  --buttonBlue: #0072d2;
+  --Star: #ffa800;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+button,
+input {
+  border: 0;
+}
+button:focus,
+input:focus {
+  border: 0;
+}
