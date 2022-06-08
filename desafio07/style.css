@@ -80,6 +80,20 @@ nav {
   gap: 50px;
 }
 
+/* Js-scroll */
+
+.js-scroll{
+  opacity: 0;
+  transform: translate3d(0, -150px, 0);
+  transition: 0.8s;
+}
+
+.js-scroll.ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+
 /* media queries */
 
 @media (max-width: 768px) {
