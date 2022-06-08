@@ -1,5 +1,5 @@
-html{
- font-family: "Open Sans", 'sans-serif';
+html {
+  font-family: "Open Sans", "sans-serif";
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 .s-head h2 {
   font-size: 24px;
   line-height: 33px;
-  color: white;
+  color: var(--white);
 }
 
 main {
@@ -27,16 +27,16 @@ main {
   justify-content: space-between;
 }
 
-.titulo h1{
- color: #FF4656;
- font-weight: bold;
- font-size: 52px;
- text-transform: uppercase;
- margin-bottom: 50px;
+.titulo h1 {
+  color: var(--redLight);
+  font-weight: bold;
+  font-size: 52px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 .content {
- display: flex;
+  display: flex;
   justify-content: center;
   flex-direction: column;
 }
@@ -48,6 +48,19 @@ main {
 
 .card {
   position: relative;
+}
+
+span {
+  display: flex;
+  margin-top: 12px;
+  margin-left: 50px;
+
+  font-family: 'druk wide bold';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  color: var(--redLight);
 }
 
 .stroke {
@@ -65,4 +78,38 @@ nav {
   position: relative;
   display: flex;
   gap: 50px;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .s-head {
+    margin-bottom: 70px;
+  }
+
+  .s-head h2 {
+    display: none;
+  }
+
+  main {
+    justify-content: center;
+  }
+
+  .card img .stroke {
+    height: 70%;
+    width: 70%;
+  }
+
+  .titulo h1 {
+    display: none;
+  }
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .suke img {
+    display: none;
+  }
 }

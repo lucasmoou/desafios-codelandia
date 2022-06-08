@@ -1,15 +1,15 @@
 /*Variáveis*/
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
 
 :root {
   --white: #ffffff;
-  --buttonDark: #131318;
-  --buttonBlue: #0072d2;
-  --Star: #ffa800;
+  --redLight: #FF4656;
 }
 
 .container {
   box-sizing: border-box;
   max-width: 1300px;
+  width: 90%;
   margin: 0 auto;
 }
 
