@@ -1,0 +1,17 @@
+/* header e footer */
+
+@import url(./css/global/header.css);
+@import url(./css/global/footer.css);
+@import url(./css/global/global.css);
+
+
+/* utilidades */
+
+@import url(./css/utilidades/componente.css);
+@import url(./css/utilidades/cores.css);
+
+
+/* home */
+
+@import url(./css/home/introducao.css);
+@import url(./css/home/conteudo.css);

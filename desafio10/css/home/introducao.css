@@ -1,0 +1,20 @@
+.introducao {
+  margin-top: 115px;
+}
+
+.introducao h1 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+
+  max-width: 303px;
+  margin-bottom: 10px;
+}
+
+.introducao p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+
+  max-width: 492px;
+}
