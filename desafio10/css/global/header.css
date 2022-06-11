@@ -1,10 +1,53 @@
-.header-bg{
- display: flex;
- justify-content: space-between;
- padding: 25px 0px;
+.header-bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px;
 }
 
-nav ul{
- display: flex;
- gap: 60px;
+nav ul {
+  display: flex;
+  gap: 60px;
+}
+
+.b-home a {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #8257e6;
+}
+
+.b-nav a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fefbfb;
+  position: relative;
+}
+
+.b-nav a::after {
+  content: "";
+  height: 2px;
+  background-color: #8257e6;
+  position: absolute;
+  width: 0;
+  left: 0;
+  top: 20px;
+  display: block;
+  transition: 0.2s;
+}
+
+.b-nav a:hover::after {
+  width: 100%;
+}
+
+.conta a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fefbfb;
+  padding: 5px 20px;
+
+  border: 1px solid #8257e6;
+  border-radius: 30px;
 }
