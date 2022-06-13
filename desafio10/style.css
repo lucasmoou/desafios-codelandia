@@ -4,12 +4,10 @@
 @import url(./css/global/footer.css);
 @import url(./css/global/global.css);
 
-
 /* utilidades */
 
 @import url(./css/utilidades/componente.css);
 @import url(./css/utilidades/cores.css);
-
 
 /* home */
 
@@ -24,3 +22,7 @@
 /* animes */
 
 @import url(./css/animes/animes.css);
+
+/* 404 */
+
+@import url(./css/404/404.css);
