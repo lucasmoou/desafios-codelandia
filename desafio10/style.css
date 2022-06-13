@@ -15,4 +15,8 @@
 
 @import url(./css/home/introducao.css);
 @import url(./css/home/conteudo.css);
-@import url(./css/home/noticias.css);
+@import url(./css/home/noticiasHome.css);
+
+/* noticia */
+
+@import url(./css/noticia/noticia.css);

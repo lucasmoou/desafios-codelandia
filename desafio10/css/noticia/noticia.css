@@ -1,0 +1,46 @@
+.header-noticia {
+  margin-top: 95px;
+}
+
+.header-noticia h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 55px;
+  margin-bottom: 12px;
+}
+
+.header-noticia p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 55px;
+}
+
+.header-noticia span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 55px;
+  margin: 0;
+}
+
+.img-noticia {
+  background-image: url(/desafio10/imagens/naoko.png);
+  max-width: 1120px;
+  min-height: 627px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+}
+
+.corpo-noticia p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+
+  margin-top: 40px;
+  max-width: 1120px;
+}
+
+.img-vida{
+ margin-top: 40px;
+}
