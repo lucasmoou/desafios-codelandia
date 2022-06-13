@@ -1,0 +1,117 @@
+.banner-animes {
+  background-image: linear-gradient(
+      360deg,
+      #13131f 0%,
+      rgba(19, 19, 31, 0) 100%
+    ),
+    url(/desafio10/imagens/tobi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+
+  margin-top: 95px;
+}
+
+.banner-animes h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+}
+
+.banner-animes p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 15px;
+  max-width: 460px;
+}
+
+.busca {
+  background-color: #282830;
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 25px;
+  margin-top: 60px;
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  background: none;
+  border: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#txtBusca {
+  height: 100%;
+  width: 1;
+}
+
+.grid-animes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px 50px;
+  margin-top: 100px;
+}
+
+.c-animes1 {
+  background-image: linear-gradient(
+      360deg,
+      #13131f 0%,
+      rgba(19, 19, 31, 0) 100%
+    ),
+    url(/desafio10/imagens/naoko.png);
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: flex-end;
+  padding: 15px;
+}
+
+.c-animes2 {
+  background-image: linear-gradient(
+      360deg,
+      #13131f 0%,
+      rgba(19, 19, 31, 0) 100%
+    ),
+    url(/desafio10/imagens/goku.png);
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: flex-end;
+  padding: 15px;
+}
+
+.c-animes3 {
+  background-image: linear-gradient(
+      360deg,
+      #13131f 0%,
+      rgba(19, 19, 31, 0) 100%
+    ),
+    url(/desafio10/imagens/poderzao.png);
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: flex-end;
+  padding: 15px;
+}
