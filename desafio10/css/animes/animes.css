@@ -30,10 +30,11 @@
   line-height: 32px;
   margin-top: 15px;
   max-width: 460px;
+  color: var(--white200);
 }
 
 .busca {
-  background-color: #282830;
+  background-color: var(--gray);
   display: flex;
   justify-content: space-between;
   padding: 17px 25px;

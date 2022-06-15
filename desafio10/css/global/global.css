@@ -1,7 +1,7 @@
 body {
   margin: 0px;
-  background: #13131f;
-  color: white;
+  background: var(--dark);
+  color: var(--white);
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden !important;
 }

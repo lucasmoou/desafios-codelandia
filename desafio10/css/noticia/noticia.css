@@ -14,6 +14,7 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 55px;
+  color: var(--white200);
 }
 
 .header-noticia span {
@@ -21,6 +22,7 @@
   font-size: 18px;
   line-height: 55px;
   margin: 0;
+  color: var(--white200);
 }
 
 .img-noticia {
@@ -36,11 +38,11 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
-
+  color: var(--white200);
   margin-top: 40px;
   max-width: 1120px;
 }
 
-.img-vida{
- margin-top: 40px;
+.img-vida {
+  margin-top: 40px;
 }
