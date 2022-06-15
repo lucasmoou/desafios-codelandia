@@ -22,7 +22,7 @@
 }
 
 .grid {
-  min-width: 338px;
+  /* min-width: 338px; */
   min-height: 250px;
   background-image: linear-gradient(
       360deg,

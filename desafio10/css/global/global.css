@@ -3,6 +3,7 @@ body {
   background: #13131f;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden !important;
 }
 
 h1,
@@ -32,7 +33,7 @@ img {
   display: block;
 }
 
-button{
+button {
   border: 0;
   cursor: pointer;
 }
