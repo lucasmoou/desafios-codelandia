@@ -1,6 +1,21 @@
-*{
+/*Reset*/
+* {
   margin: 0;
-  
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+button,
+input {
+  border: 0;
 }
 
 $primary-color:#FFA200;
@@ -9,5 +24,6 @@ $tertiary-color: #FFD4C9;
 
 $font: 'sora';
 
-@import 'header'
+@import 'header';
+@import 'principal';
 

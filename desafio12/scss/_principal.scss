@@ -1,0 +1,89 @@
+main{
+  margin-top: 141px;
+
+  h1{
+    text-align: center;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 600;
+    margin-bottom: 90px;
+    color: $secondary-color;
+  }
+    .cards{
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      
+
+      h2{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 30px;
+        color: $secondary-color;
+
+      }
+      p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 8px;
+        max-width: 180px;
+        text-align: center;
+        color: #616161;
+
+      }
+
+      h3{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: 28px;
+        color: $secondary-color;
+        
+      }
+
+      .card1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #FEF6F4;;
+        border-radius: 25px;
+        position: relative;
+        width: 256px;
+        height: 275px;
+
+          .imagem{
+          position: absolute;
+          top: -60px;
+
+          img{
+            transition: 1s ease-out;
+            &:hover{
+              transform: rotate(360deg) scale(1.2);
+              
+              }
+            }
+          } 
+
+          .botao{
+            position: absolute;           
+            bottom: -15px;
+
+            button{              
+              width: 157px;
+              height: 31px;
+              border-radius: 25px;
+              background-color: $primary-color;
+              color: $secondary-color;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 15px;
+              cursor: pointer;
+            }
+          }
+        }
+  }
+}

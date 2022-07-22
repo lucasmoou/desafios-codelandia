@@ -1,5 +1,24 @@
+/*Reset*/
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  border: 0;
 }
 
 body {
@@ -30,4 +49,80 @@ header h1 :nth-child(2) {
 }
 header h1 :nth-child(3) {
   color: #5C913B;
+}
+
+main {
+  margin-top: 141px;
+}
+main h1 {
+  text-align: center;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 600;
+  margin-bottom: 90px;
+  color: #2E2E2E;
+}
+main .cards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+main .cards h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 30px;
+  color: #2E2E2E;
+}
+main .cards p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 8px;
+  max-width: 180px;
+  text-align: center;
+  color: #616161;
+}
+main .cards h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  margin-top: 28px;
+  color: #2E2E2E;
+}
+main .cards .card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FEF6F4;
+  border-radius: 25px;
+  position: relative;
+  width: 256px;
+  height: 275px;
+}
+main .cards .card1 .imagem {
+  position: absolute;
+  top: -60px;
+}
+main .cards .card1 .imagem img {
+  transition: 1s ease-out;
+}
+main .cards .card1 .imagem img:hover {
+  transform: rotate(360deg) scale(1.2);
+}
+main .cards .card1 .botao {
+  position: absolute;
+  bottom: -15px;
+}
+main .cards .card1 .botao button {
+  width: 157px;
+  height: 31px;
+  border-radius: 25px;
+  background-color: #FFA200;
+  color: #2E2E2E;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
