@@ -18,6 +18,13 @@ input {
   border: 0;
 }
 
+.container {
+  box-sizing: border-box;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 $primary-color:#FFA200;
 $secondary-color:#2E2E2E;
 $tertiary-color: #FFD4C9;

@@ -21,6 +21,13 @@ input {
   border: 0;
 }
 
+.container {
+  box-sizing: border-box;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 body {
   font-family: "sora";
   background-color: white;
@@ -115,7 +122,51 @@ main .cards .card1 .botao {
   position: absolute;
   bottom: -15px;
 }
-main .cards .card1 .botao button {
+
+.sobre {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+  margin-top: 250px;
+}
+.sobre .descricao h1 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #2E2E2E;
+  margin-bottom: 24px;
+}
+.sobre .descricao h1 :nth-child(1) {
+  color: #FFA200;
+}
+.sobre .descricao h1 :nth-child(2) {
+  color: #CF3031;
+}
+.sobre .descricao h1 :nth-child(3) {
+  color: #5C913B;
+}
+.sobre .descricao p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+  color: #2E2E2E;
+  max-width: 450px;
+}
+
+footer {
+  margin-top: 65px;
+  margin-bottom: 16px;
+}
+footer p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+button {
   width: 157px;
   height: 31px;
   border-radius: 25px;

@@ -70,20 +70,71 @@ main{
 
           .botao{
             position: absolute;           
-            bottom: -15px;
-
-            button{              
-              width: 157px;
-              height: 31px;
-              border-radius: 25px;
-              background-color: $primary-color;
-              color: $secondary-color;
-              font-weight: 600;
-              font-size: 12px;
-              line-height: 15px;
-              cursor: pointer;
-            }
+            bottom: -15px;            
           }
         }
   }
 }
+
+.sobre{
+  display: flex;
+  align-items: center;
+  gap: 95px;
+  margin-top: 250px;
+
+  .descricao{
+      h1{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 45px;
+        color: $secondary-color;
+        margin-bottom: 24px;
+    
+        :nth-child(1){
+          color: $primary-color;
+        }
+    
+        :nth-child(2){
+          color: #CF3031;
+        }
+    
+        :nth-child(3){
+          color: #5C913B;
+        }
+      }
+
+      p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 24px;
+        color: $secondary-color;
+        max-width: 450px;
+      }
+  }  
+}
+
+footer{
+  margin-top: 65px;
+  margin-bottom: 16px;
+  p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+button{              
+  width: 157px;
+  height: 31px;
+  border-radius: 25px;
+  background-color: $primary-color;
+  color: $secondary-color;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+}
+
