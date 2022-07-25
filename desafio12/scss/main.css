@@ -47,6 +47,7 @@ header h1 {
   font-size: 96px;
   line-height: 121px;
   color: white;
+  text-align: center;
 }
 header h1 :nth-child(1) {
   color: #FFA200;
@@ -153,6 +154,10 @@ main .cards .card1 .botao {
   color: #2E2E2E;
   max-width: 450px;
 }
+.sobre img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 footer {
   margin-top: 65px;
@@ -176,4 +181,18 @@ button {
   font-size: 12px;
   line-height: 15px;
   cursor: pointer;
+}
+
+@media (max-width: 930px) {
+  main .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
+  .sobre {
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */

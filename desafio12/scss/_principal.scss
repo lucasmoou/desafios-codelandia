@@ -112,6 +112,11 @@ main{
         max-width: 450px;
       }
   }  
+
+  img{
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 footer{
@@ -136,5 +141,19 @@ button{
   font-size: 12px;
   line-height: 15px;
   cursor: pointer;
+}
+
+@media (max-width: 930px){
+  main .cards{
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
+  .sobre{
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+    text-align: center;
+  }
 }
 
