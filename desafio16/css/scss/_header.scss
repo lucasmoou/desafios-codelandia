@@ -1,0 +1,28 @@
+header{
+  background-color: $background;
+  .conteudo-header{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  p{
+    @include texto-medio;
+  }
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 23px;
+}
+.links{
+  display: flex;
+  gap: 50px;
+  margin-top: 23px;
+
+  li{
+    @include texto-pequeno;
+    color: $cor-primaria;
+  }
+}
+
