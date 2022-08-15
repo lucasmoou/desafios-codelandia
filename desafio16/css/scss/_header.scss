@@ -5,24 +5,52 @@ header{
     justify-content: space-between;
     align-items: center;
   }
-  p{
-    @include texto-medio;
+  .logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 23px;
+    p{
+      @include texto-medio;
+    }
+  }
+  .links{
+    display: flex;
+    gap: 50px;
+    margin-top: 23px;
+  
+    li{
+      cursor: pointer;
+      @include texto-pequeno;
+      color: $cor-primaria;
+    }
   }
 }
-.logo{
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  margin-top: 23px;
-}
-.links{
-  display: flex;
-  gap: 50px;
-  margin-top: 23px;
 
-  li{
-    @include texto-pequeno;
-    color: $cor-primaria;
+section{
+  margin-top: 40px;
+
+  .introducao{
+    display: flex;
+    align-items: center;
+    gap: 170px;
+
+    h1{
+      @include texto-grande;
+      color: $cor-primaria;
+      max-width: 365px;
+    }
+    p{
+      @include texto-pequeno;
+      color: $cor-secundaria;
+      max-width: 345px;
+      margin-top: 25px;
+    }
+    button{
+      cursor: pointer;
+      width: 250px;
+      @include button;
+      margin-top: 40px;
+    }
   }
 }
-

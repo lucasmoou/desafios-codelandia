@@ -12,3 +12,19 @@ $background: #F7C7B9;
   font-size: 24px;
   line-height: 36px;
 }
+
+@mixin texto-grande {
+  font-size: 48px;
+  line-height: 52px;
+}
+
+@mixin button {
+  height: 48px;
+  background: #DA2535;
+  border-radius: 8px;
+  color: #F9F9F9;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}

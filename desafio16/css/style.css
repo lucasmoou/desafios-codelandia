@@ -29,27 +29,61 @@ header .conteudo-header {
   justify-content: space-between;
   align-items: center;
 }
-header p {
-  font-size: 24px;
-  line-height: 36px;
-}
-
-.logo {
+header .logo {
   display: flex;
   align-items: center;
   gap: 15px;
   margin-top: 23px;
 }
-
-.links {
+header .logo p {
+  font-size: 24px;
+  line-height: 36px;
+}
+header .links {
   display: flex;
   gap: 50px;
   margin-top: 23px;
 }
-.links li {
+header .links li {
+  cursor: pointer;
   font-size: 16px;
   line-height: 24px;
   color: #161212;
+}
+
+section {
+  margin-top: 40px;
+}
+section .introducao {
+  display: flex;
+  align-items: center;
+  gap: 170px;
+}
+section .introducao h1 {
+  font-size: 48px;
+  line-height: 52px;
+  color: #161212;
+  max-width: 365px;
+}
+section .introducao p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #404040;
+  max-width: 345px;
+  margin-top: 25px;
+}
+section .introducao button {
+  cursor: pointer;
+  width: 250px;
+  height: 48px;
+  background: #DA2535;
+  border-radius: 8px;
+  color: #F9F9F9;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 .container {
