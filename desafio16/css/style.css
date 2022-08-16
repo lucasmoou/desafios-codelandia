@@ -179,6 +179,36 @@ main .itens .item p {
   min-width: 200px;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 45px;
+}
+footer .logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+footer .logo p {
+  font-family: "Poppins";
+  font-size: 24px;
+  line-height: 36px;
+}
+footer .links {
+  display: flex;
+  gap: 50px;
+}
+footer .links li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F7C7B9;
+  padding: 8px;
+  border-radius: 50%;
+}
+
 .container {
   max-width: 1200px;
   box-sizing: border-box;

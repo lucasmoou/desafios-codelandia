@@ -1,0 +1,28 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 45px;
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    p {
+      @include texto-medio;
+    }
+  }
+
+  .links {
+    display: flex;
+    gap: 50px;
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: $background;
+      padding: 8px;
+      border-radius: 50%;
+    }
+  }
+}
