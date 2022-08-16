@@ -1,0 +1,28 @@
+.bg-doacao {
+  background: $background;
+  .conteudo-doacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 30px;
+    .textos-section {
+      h1 {
+        @include texto-grande;
+        color: $cor-primaria;
+        margin-bottom: 24px;
+        max-width: 488px;
+      }
+      p {
+        @include texto-pequeno;
+        color: $cor-secundaria;
+        margin-bottom: 30px;
+        max-width: 447px;
+      }
+      button {
+        @include button;
+        min-width: 200px;
+      }
+    }
+  }
+}

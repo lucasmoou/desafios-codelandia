@@ -1,7 +1,7 @@
 main {
-  margin-top: 50px;
   padding-bottom: 50px;
   .titulos-main {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,7 @@ main {
   .itens {
     display: flex;
     justify-content: center;
-    gap: 140px;
+    gap: 120px;
     flex-wrap: wrap;
     .item {
       text-align: center;
