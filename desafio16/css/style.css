@@ -36,6 +36,7 @@ header .logo {
   margin-top: 23px;
 }
 header .logo p {
+  font-family: "Poppins";
   font-size: 24px;
   line-height: 36px;
 }
@@ -46,6 +47,7 @@ header .links {
 }
 header .links li {
   cursor: pointer;
+  font-family: "Poppins";
   font-size: 16px;
   line-height: 24px;
   color: #161212;
@@ -53,6 +55,7 @@ header .links li {
 
 section {
   margin-top: 40px;
+  padding-bottom: 70px;
 }
 section .introducao {
   display: flex;
@@ -60,12 +63,14 @@ section .introducao {
   gap: 170px;
 }
 section .introducao h1 {
+  font-family: "Poppins";
   font-size: 48px;
   line-height: 52px;
   color: #161212;
   max-width: 365px;
 }
 section .introducao p {
+  font-family: "Poppins";
   font-size: 16px;
   line-height: 24px;
   color: #404040;
@@ -75,6 +80,7 @@ section .introducao p {
 section .introducao button {
   cursor: pointer;
   width: 250px;
+  font-family: "Poppins";
   height: 48px;
   background: #DA2535;
   border-radius: 8px;
@@ -84,6 +90,54 @@ section .introducao button {
   align-items: center;
   justify-content: center;
   margin-top: 40px;
+}
+
+main {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+main .titulos-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+main .titulos-main h1 {
+  font-family: "Poppins";
+  font-size: 48px;
+  line-height: 52px;
+  color: #161212;
+  margin-bottom: 12px;
+}
+main .titulos-main p {
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 24px;
+  color: #404040;
+  max-width: 477px;
+}
+main .itens {
+  display: flex;
+  justify-content: center;
+  gap: 140px;
+  flex-wrap: wrap;
+}
+main .itens .item {
+  text-align: center;
+}
+main .itens .item h2 {
+  font-family: "Poppins";
+  font-size: 24px;
+  line-height: 36px;
+  color: #161212;
+  margin-bottom: 10px;
+}
+main .itens .item p {
+  font-family: "Poppins";
+  font-size: 16px;
+  line-height: 24px;
+  color: #8D8D8D;
+  max-width: 200px;
 }
 
 .container {

@@ -1,0 +1,42 @@
+main {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  .titulos-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      @include texto-grande;
+      color: $cor-primaria;
+      margin-bottom: 12px;
+    }
+
+    p {
+      @include texto-pequeno;
+      color: $cor-secundaria;
+      max-width: 477px;
+    }
+  }
+
+  .itens {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    flex-wrap: wrap;
+    .item {
+      text-align: center;
+      h2 {
+        @include texto-medio;
+        color: $cor-primaria;
+        margin-bottom: 10px;
+      }
+      p {
+        @include texto-pequeno;
+        color: $cor-terciaria;
+        max-width: 200px;
+      }
+    }
+  }
+}
