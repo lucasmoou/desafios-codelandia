@@ -37,6 +37,12 @@ main {
         color: $cor-terciaria;
         max-width: 200px;
       }
+      img{
+        transition: 0.4s ease-out;
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
     }
   }
 }

@@ -23,6 +23,10 @@ footer {
       background: $background;
       padding: 8px;
       border-radius: 50%;
+
+      &:hover {
+        box-shadow: 0 0 10px 6px #FFB6C1;
+      }
     }
   }
 }
