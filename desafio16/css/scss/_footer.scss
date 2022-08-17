@@ -11,11 +11,22 @@ footer {
     p {
       @include texto-medio;
     }
+    @include d(m){
+      display: none;
+      gap: 0px;
+      justify-content: center;
+    }
+
   }
 
   .links {
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
+    @include d(s){
+      gap: 25px;
+    }
+
     li {
       display: flex;
       align-items: center;
@@ -25,7 +36,7 @@ footer {
       border-radius: 50%;
 
       &:hover {
-        box-shadow: 0 0 10px 6px #FFB6C1;
+        box-shadow: 0 0 10px 6px #ffb6c1;
       }
     }
   }

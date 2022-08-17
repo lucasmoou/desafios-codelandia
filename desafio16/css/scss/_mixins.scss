@@ -1,34 +1,55 @@
 $cor-primaria: #161212;
 $cor-secundaria: #404040;
-$cor-terciaria: #8D8D8D;
-$background: #F7C7B9;
+$cor-terciaria: #8d8d8d;
+$background: #f7c7b9;
+
+// tipografia
 
 @mixin texto-pequeno {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 16px;
   line-height: 24px;
 }
 
 @mixin texto-medio {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 24px;
   line-height: 36px;
 }
 
 @mixin texto-grande {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 48px;
   line-height: 52px;
 }
 
 @mixin button {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   height: 48px;
-  background: #DA2535;
+  background: #da2535;
   border-radius: 8px;
-  color: #F9F9F9;
+  color: #f9f9f9;
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
 }
+
+// media queries
+
+$m-device: 768px;
+$s-device: 480px;
+
+@mixin d($size) {
+  @if $size == m {
+    @media screen and (max-width: $m-device) {
+      @content;
+    }
+  } @else if $size == s {
+    @media screen and (max-width: $s-device) {
+      @content;
+    }
+  }
+}
+
+

@@ -6,6 +6,11 @@
     justify-content: center;
     gap: 200px;
     padding-top: 30px;
+    @include d(m) {
+      gap: 0px;
+      text-align: center;
+      justify-content: center
+    }
     .textos-section {
       h1 {
         @include texto-grande;
@@ -29,8 +34,13 @@
         }
       }
     }
-    img {
-      max-width: 100%;
+    .img-shared {
+      img {
+        max-width: 100%;
+        @include d(m) {
+          display: none;
+        }
+      }
     }
   }
 }

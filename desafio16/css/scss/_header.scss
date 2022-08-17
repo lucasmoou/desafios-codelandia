@@ -14,15 +14,50 @@ header {
       @include texto-medio;
     }
   }
+}
+.nav {
+  @include d(m) {
+    &.ativo .links {
+      display: block;
+      overflow-y: hidden;
+    }
+  }
+  .mobile-menu {
+    display: none;
+    width: 24px;
+    height: 2px;
+    background: black;
+    margin-top: 3px ;
+    @include d(m) {
+      display: flex;
+    }
+  }
   .links {
     display: flex;
     gap: 50px;
     margin-top: 23px;
-
+    @include d(m) {
+      display: none;
+      position: absolute;
+      width: 100%;
+      top: 8vh;
+      right: 0px;
+      background: white;
+      height: 100vh;
+      z-index: 1000;
+    }
     li {
       cursor: pointer;
       @include texto-pequeno;
       color: $cor-primaria;
+      @include d(m) {
+        padding: 40px 0px;
+        text-align: center;
+      }
+      &:hover {
+        background: $background;
+        filter: brightness(0.9);
+      }
     }
   }
 }
@@ -35,16 +70,26 @@ section {
     align-items: center;
     gap: 170px;
 
+    @include d(m) {
+      gap: 0px;
+      text-align: center;
+    }
     h1 {
       @include texto-grande;
       color: $cor-primaria;
       max-width: 365px;
+      @include d(m) {
+        max-width: 100%;
+      }
     }
     p {
       @include texto-pequeno;
       color: $cor-secundaria;
       max-width: 345px;
       margin-top: 25px;
+      @include d(m) {
+        max-width: 100%;
+      }
     }
     button {
       cursor: pointer;
@@ -56,8 +101,13 @@ section {
         filter: brightness(1.1);
       }
     }
-    img {
-      max-width: 100%;
+    .send {
+      img {
+        max-width: 100%;
+        @include d(m) {
+          display: none;
+        }
+      }
     }
   }
 }

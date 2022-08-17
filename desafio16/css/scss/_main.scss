@@ -25,6 +25,9 @@ main {
     justify-content: center;
     gap: 120px;
     flex-wrap: wrap;
+    @include d(s) {
+      gap: 10px;
+    }
     .item {
       text-align: center;
       h2 {
@@ -37,9 +40,9 @@ main {
         color: $cor-terciaria;
         max-width: 200px;
       }
-      img{
+      img {
         transition: 0.4s ease-out;
-        &:hover{
+        &:hover {
           transform: scale(1.2);
         }
       }

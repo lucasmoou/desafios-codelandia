@@ -10,4 +10,7 @@
   box-sizing: border-box;
   margin: 0 auto;
   width: 90%;
+  @include d(m){
+    justify-content: center;
+  }
 }
